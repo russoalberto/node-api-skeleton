@@ -4,9 +4,9 @@ const router = new Router();
 const example = require('./model/example/router');
 
 router.route('/').get((req, res) => {
-  res.json({ message: 'Welcome to node-api-skeleton API!' });
+  res.json({ message: 'Welcome to api-node API!' });
 });
 
-router.use('/example', example);
+router.use('/api/examples', example);
 
 module.exports = router;
