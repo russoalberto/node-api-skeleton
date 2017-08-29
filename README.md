@@ -3,8 +3,9 @@
 ## installation
 change name of schema in config.js
 
+```bash
 npm install
-
+```
 
 ## dependencies
 
@@ -12,7 +13,7 @@ node 6.3.x or later and mongodb
 
 ## developing
 
-run mongod on a separated terminal instance:
+start mongod, if not already started:
 
 ```
 mongod
